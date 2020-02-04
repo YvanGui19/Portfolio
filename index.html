@@ -23,17 +23,50 @@
             <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
             <ul class="menu">
                 <li><a href="#home">Accueil</a></li>
-                <li><a href="#comp">Compétences</a></li>
                 <li><a href="#xp">Expériences</a></li>
+                <li><a href="#demo">Projets</a></li>
                 <li><a href="#cont">Contact</a></li>
                 </ul>
           </header>
 
         <main>
-            <section>
-                <article>
+            <section id="home" class="wrap widthA heightvh">
+                <article class="art1 width50 heightvh">
                     <div></div>
                 </article>
+                <article class="art2 column width50 heightvh">
+                    <div class="div1 width100 height50"></div>
+                    <div class="div2 width100 height50"></div>
+                </article>
+            </section>
+
+            <section id="xp" class="wrap widthA heightvh">
+                <article class="art2 column width50 heightvh">
+                    <div class="div1 width100 height50"></div>
+                    <div class="div2 width100 height50"></div>
+                </article>
+                <article class="art1 width50 heightvh">
+                    <div></div>
+                </article>
+            </section>
+
+            <section id="demo" class="row widthA heightvh">
+                <article class="art2 row-sp-evy width100 height50">
+                    <div class="div1 proj1"></div>
+                    <div class="div2 proj2"></div>
+                    <div class="div3 proj3"></div>
+                </article>
+            </section>
+
+            <section id="cont" class="row widthA heightvh">
+                <form class="column widthA height40 marg2" method="post" action="index.html">
+                    <div class="row-sp-btw width100 heigh100">
+                        <input id="name" class="input width48 height20" type="text" placeholder="Nom">
+                        <input id="email" class="input width48 height20" type="email" placeholder="Email">
+                    </div>
+                    <textarea id="message" class="width95 height20" type="text" placeholder="Votre message"></textarea>
+                    <button id="sub" type="submit">Envoyer le message</button>
+                </form>
             </section>
         </main>
 
