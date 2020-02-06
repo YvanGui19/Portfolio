@@ -9,6 +9,7 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet">
         <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
         <!--     CSS     -->
         <link rel="stylesheet" href="assets/css/main.css">
         <link rel="stylesheet" href="assets/css/menu.css">
@@ -30,42 +31,51 @@
           </header>
 
         <main>
-            <section id="home" class="wrap widthA heightvh">
-                <article class="art1 width50 heightvh">
+            <section id="dicton" class="row widthA heightpx200 MQheightpx">
+                <article class="column margTop5 width100 height40 MQmarg5 MQmargTop">
+                    <div class="">
+                        <p class="citation">"Soyez humain si vous voulez être original ; plus personne ne l'est."</p>
+                        <p class="auteur dpflxend">Max Jacob</p> 
+                    </div>     
+                </article>   
+            </section>
+
+            <section id="home" class="wrap widthA heightvh MQheight">
+                <article class="art1 width50 heightvh MQheight">
                     <div></div>
                 </article>
-                <article class="art2 column width50 heightvh">
+                <article class="art2 columnctr width50 heightvh MQheight">
                     <div class="div1 width100 height50"></div>
                     <div class="div2 width100 height50"></div>
                 </article>
             </section>
 
-            <section id="xp" class="wrap widthA heightvh">
-                <article class="art2 column width50 heightvh">
+            <section id="xp" class="wrap widthA heightvh MQheight">
+                <article class="art2 columnctr width50 heightvh MQheight">
                     <div class="div1 width100 height50"></div>
                     <div class="div2 width100 height50"></div>
                 </article>
-                <article class="art1 width50 heightvh">
+                <article class="art1 width50 heightvh MQheight">
                     <div></div>
                 </article>
             </section>
 
-            <section id="demo" class="row widthA heightvh">
-                <article class="art2 row-sp-evy width100 height50">
+            <section id="demo" class="row widthA heightvh MQheight">
+                <article class="art2 row-sp-evy width100 height50 MQheight">
                     <div class="div1 proj1"></div>
                     <div class="div2 proj2"></div>
                     <div class="div3 proj3"></div>
                 </article>
             </section>
 
-            <section id="cont" class="row widthA heightvh">
-                <form class="column widthA height40 marg2" method="post" action="index.html">
-                    <div class="row-sp-btw width100 heigh100">
-                        <input id="name" class="input width48 height20" type="text" placeholder="Nom">
-                        <input id="email" class="input width48 height20" type="email" placeholder="Email">
+            <section id="cont" class="row widthA heightvh MQheight">
+                <form class="columnctr widthA height40 marg2" method="post" action="index.html">
+                    <div class="row-sp-btw width100 heigh100 MQheight">
+                        <input id="name" class="input width45 height20" type="text" placeholder="Nom">
+                        <input id="mail" class="input width45 height20" type="email" placeholder="Email">
                     </div>
-                    <textarea id="message" class="width95 height20" type="text" placeholder="Votre message"></textarea>
-                    <button id="sub" type="submit">Envoyer le message</button>
+                    <textarea id="msg" class="width95 height20 MQheight" type="text" placeholder="Votre message"></textarea>
+                    <input id="submit" class="button" type="submit" value="Envoyer le message"></input>
                 </form>
             </section>
         </main>
