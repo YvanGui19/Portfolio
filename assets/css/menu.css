@@ -34,6 +34,7 @@ a {
 .header li a:hover,
 .header .menu-btn:hover {
   background-color: #adaeb1;
+  color: #fff;
 }
 
 /*.header .logo {
@@ -58,8 +59,8 @@ a {
 .header .menu-icon {
   cursor: pointer;
   display: inline-block;
-  float:right;
-  padding: 28px 20px;
+  float: right;
+  padding: 20px 20px;
   position: relative;
   user-select: none;
 }
@@ -125,7 +126,7 @@ a {
     float: left;
   }
   .header li a {
-    padding: 20px 30px;
+    padding: 10px 20px;
   }
   .header .menu {
     clear: none;

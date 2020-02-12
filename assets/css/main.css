@@ -48,12 +48,12 @@
 /* -------------------------------- CONSTRUCTION -------------------------------- */
 
 #demo, #cont{background-color: teal;}
-.art1{background-color: brown;}
-.art2{background-color: burlywood;}
-.div1{background-color: yellowgreen;}
-.div2{background-color: orangered;}
-.div3{background-color: yellow;}
-.div4{background-color: orchid;}
+.fond1{background-color: brown;}
+.fond2{background-color: #191970;}
+.fond3{background-color: #C0C0C0;}
+.fond4{background-color: yellow;}
+.fond5{background-color: orchid;}
+.fond6{background-color: #6A5ACD;}burlywood
 
 /* -------------------------------- INTRO -------------------------------- */
 .citation{
@@ -67,10 +67,52 @@
 }
 
 /* -------------------------------- HOME -------------------------------- */
+.id{
+    color: #fff;
+    font-family: Lato, sans-serif;
+    font-size: 4em;
+}
 
+.logofront{width: 20%;}
 
 /* -------------------------------- XP -------------------------------- */
 
+#but0{background-color: #2D535C;}
+.desk1{
+  width: 30%;
+  height: 100%;
+  margin: 1% 1%;
+}
+.xp{
+  width: 100%;
+  height: 40px;
+  border: 1px solid #2D535C;
+  border-radius: 5px;
+  background-color: #1A2F34;
+  cursor: pointer;
+}
+.desk2{
+  width: 70%;
+  height: 100%;
+  margin-right: 1%;
+}
+#xp2, #xp3, #xp4, #xp5, #xp6 {display: none;}
+.xps{
+  width: auto;
+  height: auto;
+  color: #fff;
+  font-weight: normal;
+  margin-left: 2%;
+}
+.xps > img{
+  width: 25%;
+  height: 25%;
+  margin-bottom: 5%;
+}
+.xps > p{margin-bottom: 3%;}
+.poste{text-transform: uppercase;text-align: center;}
+.italic{font-style: italic;text-align: center;}
+.font{font-family: Open sans, sans-serif;}
 
 /* -------------------------------- DEMO -------------------------------- */
 
