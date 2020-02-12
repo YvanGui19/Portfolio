@@ -22,7 +22,7 @@
 .width40{width: 40%;}   .width45{width: 45%;}
 .width30{width: 30%;}
 .width20{width: 20%;}   .width25{width: 25%;}
-.width10{width: 10%;}
+.width10{width: 10%;}   .width15{width: 15%;}
 
 .heightA{height: auto;}
 .heightvh{height: 100vh;}
@@ -164,7 +164,7 @@ textarea{
 
     .MQmargTop{margin-top: 8%;}
 
-    .citation{font-size: 1.5em;}
+    .MQfontsize{font-size: 1.5em;}
 }
 
 @media screen and (max-width: 414px) {
