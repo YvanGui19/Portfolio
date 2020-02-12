@@ -45,6 +45,20 @@
 
 .margTop5{margin-top: 5%;}
 
+.satisfy{font-family: Satisfy, sans-serif;}
+.lato{font-family: Lato, sans-serif;}
+.opensans{font-family: Open sans, sans-serif;}
+
+.em1{font-size: 1em;}
+.em2{font-size: 2em;}
+.em3{font-size: 3em;}
+.em4{font-size: 4em;}
+
+.black{color: #000;}
+.white{color: #fff;}
+
+.italic{font-style: italic;}
+
 /* -------------------------------- CONSTRUCTION -------------------------------- */
 
 #demo, #cont{background-color: teal;}
@@ -55,25 +69,6 @@
 .fond5{background-color: orchid;}
 .fond6{background-color: #6A5ACD;}burlywood
 
-/* -------------------------------- INTRO -------------------------------- */
-.citation{
-    color: #000;
-    font-size: 2em;
-    font-family: Satisfy, sans-serif;
-}
-.auteur{
-    color: #000;
-    font-style: italic;
-}
-
-/* -------------------------------- HOME -------------------------------- */
-.id{
-    color: #fff;
-    font-family: Lato, sans-serif;
-    font-size: 4em;
-}
-
-.logofront{width: 20%;}
 
 /* -------------------------------- XP -------------------------------- */
 
@@ -112,7 +107,6 @@
 .xps > p{margin-bottom: 3%;}
 .poste{text-transform: uppercase;text-align: center;}
 .italic{font-style: italic;text-align: center;}
-.font{font-family: Open sans, sans-serif;}
 
 /* -------------------------------- DEMO -------------------------------- */
 
