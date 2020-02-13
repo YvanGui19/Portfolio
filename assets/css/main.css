@@ -20,7 +20,7 @@
 .width60{width: 60%;}
 .width50{width: 50%;}
 .width40{width: 40%;}   .width45{width: 45%;}
-.width30{width: 30%;}
+.width30{width: 30%;}   .width34{width: 34%;}
 .width20{width: 20%;}   .width25{width: 25%;}
 .width10{width: 10%;}   .width15{width: 15%;}
 
@@ -58,18 +58,22 @@
 
 .color1{color: #000;}
 .color2{color: #fff;}
-.color3{color: orange;}
-.color4{color: #FF7061;}
+.color3{color: #00587C;}
+.color4{color: #bccf98;}
 
 .italic{font-style: italic;}
+
+.upper{text-transform: uppercase;}
+
+.inline{display: inline;}
 
 /* -------------------------------- CONSTRUCTION -------------------------------- */
 
 #demo, #cont{background-color: teal;}
-.fond1{background-color: #008080;}
-.fond2{background-color: #191970;}
-.fond3{background-color: #C0C0C0;}
-.fond4{background-color: #32B36E;}
+.fond1{background-color: ;}
+.fond2{background-color: #d5cd98;}
+.fond3{background-color: #fff;}
+.fond4{background-color: #000;}
 .fond5{background-color: #B223B8;}
 .fond6{background-color: #6A5ACD;}burlywood
 
