@@ -2,6 +2,8 @@
 *{margin:0;padding:0}
 
 /* -------------------------------- GÉNÉRAL -------------------------------- */
+ul{list-style: none;}
+
 
 .dpflxrev{display: flex;flex-direction: row-reverse;}
 .row{display: flex;justify-content: center;align-items: center;}
@@ -42,11 +44,22 @@
 .marg2{margin: 2%;}
 .marg5{margin: 5%;}
 
+.margTop5{margin-top: 5%;}
+.margTop10{margin-top: 10%;}
+.margTop15{margin-top: 15%;}
+.margTop20{margin-top: 20%;}
+.margTop25{margin-top: 25%;}
+.margTop30{margin-top: 30%;}
+.margTop35{margin-top: 35%;}
+.margTop40{margin-top: 40%;}
+
+.margBot1{margin-bottom: 1%;}
+.margBot5{margin-bottom: 5%;}
+
 .padLeft2{padding-left: 2%;}
 .padLeft5{padding-left: 5%;}
 
-.margTop5{margin-top: 5%;}
-.margTop10{margin-top: 10%;}
+.padRight5{padding-right: 5%;}
 
 .satisfy{font-family: Satisfy, sans-serif;}
 .lato{font-family: Lato, sans-serif;}
@@ -54,6 +67,7 @@
 .roboto{font-family: roboto, sans-serif;}
 
 .em1{font-size: 1em;}
+.em1et2{font-size: 1.5em;}
 .em2{font-size: 2em;}
 .em3{font-size: 3em;}
 .em4{font-size: 4em;}
@@ -64,10 +78,15 @@
 .color4{color: #bccf98;}
 
 .italic{font-style: italic;}
+.bold{font-weight: bold;}
 
 .upper{text-transform: uppercase;}
+.capita{text-transform: capitalize;}
 
 .inline{display: inline;}
+
+.bor-1-beige{border: 1px solid #D5CD98;}
+.bor-1-blue{border: 1px solid #00587C;}
 
 /* -------------------------------- CONSTRUCTION -------------------------------- */
 
