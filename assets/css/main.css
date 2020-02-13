@@ -25,20 +25,20 @@ ul{list-style: none;}
 .width40{width: 40%;}   .width45{width: 45%;}
 .width30{width: 30%;}   .width34{width: 34%;}
 .width20{width: 20%;}   .width25{width: 25%;}
-.width10{width: 10%;}   .width15{width: 15%;}
+.width10{width: 10%;}   .width11{width: 11%;} .width12{width: 12%;} .width13{width: 13%} .width14{width: 14%;} .width15{width: 15%;} .width16{width: 16%;} .width17{width: 17%;}
 
 .heightA{height: auto;}
 .heightvh{height: 100vh;}
 .height100{height: 100%;}
 .height90{height: 90%;}
-.height80{height: 80%;}
+.height80{height: 80%;}   .height85{height: 85%;}
 .height70{height: 70%;}
 .height60{height: 60%;}
 .height50{height: 50%;}
 .height40{height: 40%;}
 .height30{height: 30%;}
 .height20{height: 20%;}
-.height10{height: 10%;}
+.height10{height: 10%;}   .height15{height: 15%;}
 .heightpx200{height:200px;}
 
 .marg1{margin: 1%;}
