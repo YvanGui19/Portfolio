@@ -3,7 +3,7 @@
 
 /* -------------------------------- GÉNÉRAL -------------------------------- */
 
-.dpflxend{display: flex;flex-direction: row-reverse;}
+.dpflxrev{display: flex;flex-direction: row-reverse;}
 .row{display: flex;justify-content: center;align-items: center;}
 .row-sp-btw{display: flex;justify-content: space-between;align-items: center;}
 .row-sp-evy{display: flex;justify-content: space-evenly;align-items: center;}
@@ -46,10 +46,12 @@
 .padLeft5{padding-left: 5%;}
 
 .margTop5{margin-top: 5%;}
+.margTop10{margin-top: 10%;}
 
 .satisfy{font-family: Satisfy, sans-serif;}
 .lato{font-family: Lato, sans-serif;}
 .opensans{font-family: Open sans, sans-serif;}
+.roboto{font-family: roboto, sans-serif;}
 
 .em1{font-size: 1em;}
 .em2{font-size: 2em;}
