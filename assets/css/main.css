@@ -102,7 +102,7 @@ ul{list-style: none;}
 
 /* -------------------------------- CONSTRUCTION -------------------------------- */
 
-#demo, #cont{background-color: teal;}
+#cont{background-color: teal;}
 .fond1{background-color: ;}
 .fond2{background-color: #d5cd98;}
 .fond3{background-color: #fff;}
