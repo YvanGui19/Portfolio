@@ -9,7 +9,7 @@ ul{list-style: none;}
 .inline{display: inline;}
 .dp-flx-rev{display: flex;flex-direction: row-reverse;}
 .row{display: flex;justify-content: center;align-items: center;}
-.row-alg-str{display: flex;justify-content: center;align-items: strectch;}
+.row-alg-str{display: flex;justify-content: center;align-items: stretch;}
 .row-sp-btw{display: flex;justify-content: space-between;align-items: center;}
 .row-sp-evy{display: flex;justify-content: space-evenly;align-items: center;}
 .col{display: flex;flex-direction: column;align-items: center;}
@@ -17,7 +17,8 @@ ul{list-style: none;}
 .col-flx-end{display: flex;flex-direction: column;justify-content: flex-end; align-items: center;}
 .col-ctr{display: flex;flex-direction: column;justify-content: center;align-items: center;}
 .col-evy{display: flex;flex-direction: column;justify-content: space-evenly;align-items: center;}
-.wrap{display: flex;flex-wrap: wrap;justify-content: space-evenly;align-items: center;}
+.wrap{display: flex;flex-wrap: wrap;justify-content: center;align-items: center;}
+.wrap-sp-btw{display: flex;flex-wrap: wrap;justify-content: space-between;align-items: center;}
 
 /* WIDTH -------------------------------- */
 .widthA{width: auto;}
@@ -71,6 +72,10 @@ ul{list-style: none;}
 .margBot25{margin-bottom: 25%;}
 .margBot30{margin-bottom: 30%;}
 
+/* PADDING -------------------------------- */
+.pad1{padding: 1%;}
+.pad2{padding: 2%;}
+
 /* PADDING BOTTOM -------------------------------- */
 .padBot5{padding-bottom: 5%;}
 .padBot10{padding-bottom: 10%;}
@@ -79,6 +84,7 @@ ul{list-style: none;}
 /* PADDING LEFT -------------------------------- */
 .padLeft2{padding-left: 2%;}
 .padLeft5{padding-left: 5%;}
+.padLeft10{padding-left: 10%;}
 
 /* PADDING RIGHT -------------------------------- */
 .padRight5{padding-right: 5%;}
@@ -107,56 +113,42 @@ ul{list-style: none;}
 .upper{text-transform: uppercase;}
 .capita{text-transform: capitalize;}
 
+/* TEXT ALIGN-------------------------------- */
+.txt-alg-ctr{text-align: center;}
+
 /* COLOR -------------------------------- */
 .color0{color: #000;}
 .colorf{color: #fff;}
 .color1{color: #00587C;}
 
+.bck-clr-1{background-color: rgb(25, 120, 158)}
+
 /* BORDER -------------------------------- */
 .bor-1-beige{border: 1px solid #D5CD98;}
 .bor-1-blue{border: 1px solid #00587C;}
+.bor-1-grey{border: 1px solid #939393;}
+
+/* BORDER RADIUS -------------------------------- */
+.bor-rad-7{border-radius: 7px;}
+.bor-rad-50{border-radius: 50px;}
 
 /* BOX SHADOW -------------------------------- */
 .box-shdw{box-shadow: 0px 4px 8px rgb(0, 0, 0,0.2);transition: 0.3s;}
 
+/* HOVER -------------------------------- */
 .hovproject:hover{
     box-shadow: 0px 8px 16px 0 rgb(0, 0, 0,0.2);
-    opacity: 0.70;
+    opacity: 0.50;
 }
 
-/* -------------------------------- FORMULAIRE -------------------------------- */
-
-.input{
-      padding: 10px;
-      border-radius: 50px;
-      border: 1px solid #939393;
-      color: #939393;
-      font-size: 1em;
-      resize: none;
-}
-textarea{
-      padding: 10px;
-      border-radius: 7px;
-      border: 1px solid #939393;
-      color: #939393;
-      font-size: 1em;
-      resize: none;
-}
-.button{
-    background-color: #fff;
-    color: #D99494;
-    text-align: center;
-    margin-top: 10px;
-    padding: 10px;
-    font-size: 1em;
-    border-radius: 50px;
-}
-.button:hover{
-    background-color: #8E1326;
+.hovbutton:hover{
+    box-shadow: 5px 8px 20px 0 rgb(0, 0, 0,0.4);
+    background-color: #00587C;
     color: #fff;
 }
 
-/*MEDIA*/
+
+/* -------------------------------- MEDIA QUERIES -------------------------------- */
 /*LG*/
 @media screen and (max-width: 1200px) {
 }

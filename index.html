@@ -307,15 +307,17 @@
             </section>
 
 <!---------------------------------- FORMULAIRE ---------------------------------->
-            <section id="cont" class="row widthA heightvh MQheight">
-                <form class="columnctr widthA height40 marg2" method="post" action="index.html">
-                    <div class="row-sp-btw width100 heigh100 MQheight">
-                        <input id="name" class="input width45 height20" type="text" placeholder="Nom">
-                        <input id="mail" class="input width45 height20" type="email" placeholder="Email">
-                    </div>
-                    <textarea id="msg" class="width95 height20 MQheight" type="text" placeholder="Votre message"></textarea>
-                    <input id="submit" class="button" type="submit" value="Envoyer le message"></input>
-                </form>
+            <section id="cont" class="col widthA heightvh MQheight">
+              <article class="width70 height20 col-flx-end em2">
+                <hr class=" width30 bor-1-beige margTop5 margBot1">
+                <h2 class="upper roboto bold color1 em1">Contacter moi</h2>
+              </article>
+              <form class="wrap-sp-btw width50 height40 margTop10" method="post" action="/index.php">
+                <input id="name" class="width40 height10 hovproject em1 bor-rad-7 padLeft2 bor-1-grey lato box-shdw" name="name" type="text" placeholder="Nom" required>
+                <input id="email" class="width50 height10 hovproject em1 bor-rad-7 padLeft2 bor-1-grey lato box-shdw" type="email" placeholder="Email" name="email" required>
+                <textarea id="message" class="width100 height30 hovproject em1 bor-rad-7 pad2 bor-1-grey lato box-shdw" type="text" name="message" placeholder="Votre message"></textarea>
+                <button id="sub" class="width20 margTop5 bor-rad-50 hovbutton txt-alg-ctr color1 em1 pad1 lato box-shdw" type="submit">Envoyer</button>
+              </form>
             </section>
         </main>
 
