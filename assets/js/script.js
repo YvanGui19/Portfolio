@@ -14,6 +14,7 @@ document.querySelectorAll('a[href^="#"]').forEach($anchor => {
 });
 
 //FORMULAIRE----------------------------------------------------------------------------
+
     let submit = document.getElementById('submit');
 
     submit.addEventListener('click', function(){
