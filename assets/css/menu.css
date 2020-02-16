@@ -27,13 +27,13 @@ a {
 
 .header li a {
   display: block;
-  padding: 20px 20px;
+  padding: 10px 20px;
   text-decoration: none;
 }
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #adaeb1;
+  background-color: #00587C;
   color: #fff;
 }
 
